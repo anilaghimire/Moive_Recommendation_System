@@ -25,7 +25,7 @@ def recommend_movies():
 
     # Extract actors and genre (or handle missing data)
     actors = data.get('actors', '')  # Use get() to handle potential absence of 'actors' key
-    genre = data.get('genre', None)  # Use get() to handle potential absence of 'genre' key
+    genre = data.get('genre', None) 
 
     # Call the get_recommendations function from your script
     try:
